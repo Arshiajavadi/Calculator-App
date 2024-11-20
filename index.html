@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <input id="display" type="text" />
+      <div class="buttons-con">
+        <button onclick="clearDisplay()" class="button gray" type="button">
+          AC
+        </button>
+        <button
+          onclick="appendToDisplay('()')"
+          class="button gray"
+          type="button"
+        >
+          ()
+        </button>
+        <button
+          onclick="appendToDisplay('%')"
+          class="button gray"
+          type="button"
+        >
+          %
+        </button>
+        <button onclick="appendToDisplay('/')" class="button red" type="button">
+          /
+        </button>
+        <button onclick="appendToDisplay('7')" class="button" type="button">
+          7
+        </button>
+        <button onclick="appendToDisplay('8')" class="button" type="button">
+          8
+        </button>
+        <button onclick="appendToDisplay('9')" class="button" type="button">
+          9
+        </button>
+        <button onclick="appendToDisplay('*')" class="button red" type="button">
+          X
+        </button>
+        <button onclick="appendToDisplay('4')" class="button" type="button">
+          4
+        </button>
+        <button onclick="appendToDisplay('5')" class="button" type="button">
+          5
+        </button>
+        <button onclick="appendToDisplay('6')" class="button" type="button">
+          6
+        </button>
+        <button onclick="appendToDisplay('-')" class="button red" type="button">
+          --
+        </button>
+        <button onclick="appendToDisplay('1')" class="button" type="button">
+          1
+        </button>
+        <button onclick="appendToDisplay('2')" class="button" type="button">
+          2
+        </button>
+        <button onclick="appendToDisplay('3')" class="button" type="button">
+          3
+        </button>
+        <button onclick="appendToDisplay('+')" class="button red" type="button">
+          +
+        </button>
+        <button
+          onclick="appendToDisplay('0')"
+          class="button button_wide"
+          type="button"
+        >
+          0
+        </button>
+        <button onclick="appendToDisplay('.')" class="button" type="button">
+          .
+        </button>
+        <button onclick="calculate()" class="button red" type="button">
+          =
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
