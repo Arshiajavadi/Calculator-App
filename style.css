@@ -33,16 +33,26 @@ body{
     bottom: 70rem;
 }
 
+.calculation {
+    color: #9b9b9b;
+    font-size: 3rem;
+    text-align: right;
+    position: relative;
+    top: 11rem;
+    height: 4rem;
+}
+
 
 #display{
     width: 25rem;
     height: 5rem;
-    font-size: 5rem;
+    font-size: 6rem;
     border: 0;
     outline: 0;
     color: white;
     background: black;
     margin-top: 13rem;
+    text-align: right;
 }
 
 .buttons-con{
