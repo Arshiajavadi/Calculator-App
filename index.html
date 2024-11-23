@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="mobile-con">
+      <img src="hero_camera_hw__l3esjbq1awy2_xlarge.png" class="mobile" />
+    </div>
     <div class="box">
-      <input id="display" type="text" />
+      <input id="display" type="text" readonly />
       <div class="buttons-con">
         <button onclick="allClear()" class="button gray" type="button">
           AC
         </button>
-        <button onclick="clearLast()" class="button gray" type="button">C</button>
+        <button onclick="clearLast()" class="button gray" type="button">
+          C
+        </button>
         <button
           onclick="appendToDisplay('%')"
           class="button gray"
@@ -74,6 +79,7 @@
           =
         </button>
       </div>
+      <div class="navbar"></div>
     </div>
 
     <script src="script.js"></script>

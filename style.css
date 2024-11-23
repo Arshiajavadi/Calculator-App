@@ -10,29 +10,29 @@ body{
     margin: 3rem 0;
 }
 
-/* .mobile{
+.mobile{
     width: 31rem;
-    height: 61rem;
-    position: relative;
-    bottom: 60rem;
-    right: 3rem;
+    height: 60.8rem;
 }
 
 .mobile-con{
-    width: 25rem;
-    margin: auto;
+    margin: 10rem auto;
     text-align: center;
-} */
+}
 
 .box{
     background: rgb(0, 0, 0);
     text-align: center;
     margin: auto;
     padding: 2rem;
+    padding-bottom: 1.1rem;
     width: 25rem;
     height: auto;
     border-radius: 4.5rem;
+    position: relative;
+    bottom: 70rem;
 }
+
 
 #display{
     width: 25rem;
@@ -41,7 +41,7 @@ body{
     border: 0;
     outline: 0;
     color: white;
-    background: #414e77;
+    background: black;
     margin-top: 13rem;
 }
 
@@ -63,6 +63,11 @@ body{
     font-size: 2rem;
     background: #2a2a2c;
     cursor: pointer;
+    transition: background 0.1s;
+}
+
+.button:active{
+    background: #5c5c5f;
 }
 
 .button_wide{
@@ -74,6 +79,22 @@ body{
     background: #5c5c5f;
 }
 
+.gray:active{
+    background: #909094;
+}
+
 .red{
-    background:#186db3;
+    background:#ff9f0a;
+}
+
+.red:active{
+    background: #ffd89d;
+}
+
+.navbar{
+    width: 11rem;
+    height: 0.5rem;
+    background: white;
+    border-radius: 20rem;
+    margin: auto;
 }
