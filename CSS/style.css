@@ -52,20 +52,22 @@ body {
   font-size: 2rem;
   text-align: right;
   position: relative;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   top: 11rem;
   height: 4rem;
 }
 
 #display {
-  width: 23rem;
+  width: 25rem;
   height: 5rem;
   font-size: 6rem;
+  padding: 0;
   border: 0;
   outline: 0;
   color: white;
   background: black;
   margin-top: 9.9rem;
+  margin-bottom: 1rem;
   text-align: right;
 }
 
@@ -99,26 +101,36 @@ body {
   grid-column: span 2;
 }
 
-.gray {
+.gray-button {
   background: #5c5c5f;
 }
 
-.gray:active {
+.gray-button:active {
   background: #909094;
 }
 
-.red {
+.orange-button {
   background: #ff9f0a;
 }
 
-.red:active {
+.orange-button:active {
   background: #ffd89d;
 }
 
 .navbar {
-  width: 11rem;
-  height: 0.5rem;
   background: white;
   border-radius: 20rem;
+  height: 0.5rem;
   margin: auto;
+  width: 11rem;
+}
+
+.copyright {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 1rem;
+  color: #929292;
+  padding: 2rem;
+  position: relative;
+  bottom: 79rem;
 }

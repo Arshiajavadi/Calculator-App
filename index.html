@@ -8,8 +8,10 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+    <link rel="icon" href="images/calculator-400.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
     <script
       src="https://kit.fontawesome.com/f3626f00ef.js"
       crossorigin="anonymous"
@@ -34,12 +36,12 @@
       <div class="calculation"></div>
       <input id="display" type="text" readonly />
       <div class="buttons-con">
-        <button onclick="allClear()" class="button gray" type="button">
+        <button onclick="allClear()" class="button gray-button" type="button">
           AC
         </button>
         <button
           onclick="clearLast()"
-          class="button gray"
+          class="button gray-button"
           id="clear"
           type="button"
         >
@@ -47,12 +49,16 @@
         </button>
         <button
           onclick="appendToDisplay('%')"
-          class="button gray"
+          class="button gray-button"
           type="button"
         >
           <i class="fa-solid fa-percent"></i>
         </button>
-        <button onclick="appendToDisplay('/')" class="button red" type="button">
+        <button
+          onclick="appendToDisplay('/')"
+          class="button orange-button"
+          type="button"
+        >
           <i class="fa-solid fa-divide"></i>
         </button>
         <button onclick="appendToDisplay('7')" class="button" type="button">
@@ -64,7 +70,11 @@
         <button onclick="appendToDisplay('9')" class="button" type="button">
           9
         </button>
-        <button onclick="appendToDisplay('*')" class="button red" type="button">
+        <button
+          onclick="appendToDisplay('*')"
+          class="button orange-button"
+          type="button"
+        >
           <i class="fa-solid fa-xmark"></i>
         </button>
         <button onclick="appendToDisplay('4')" class="button" type="button">
@@ -76,7 +86,11 @@
         <button onclick="appendToDisplay('6')" class="button" type="button">
           6
         </button>
-        <button onclick="appendToDisplay('-')" class="button red" type="button">
+        <button
+          onclick="appendToDisplay('-')"
+          class="button orange-button"
+          type="button"
+        >
           <i class="fa-solid fa-minus"></i>
         </button>
         <button onclick="appendToDisplay('1')" class="button" type="button">
@@ -88,7 +102,11 @@
         <button onclick="appendToDisplay('3')" class="button" type="button">
           3
         </button>
-        <button onclick="appendToDisplay('+')" class="button red" type="button">
+        <button
+          onclick="appendToDisplay('+')"
+          class="button orange-button"
+          type="button"
+        >
           <i class="fa-solid fa-plus"></i>
         </button>
         <button
@@ -101,12 +119,17 @@
         <button onclick="appendToDisplay('.')" class="button" type="button">
           .
         </button>
-        <button onclick="calculate()" class="button red" type="button">
+        <button
+          onclick="calculate()"
+          class="button orange-button"
+          type="button"
+        >
           <i class="fa-solid fa-equals"></i>
         </button>
       </div>
       <div class="navbar"></div>
     </div>
+    <p class="copyright">Copyright 2024 © Arshia Javadi</p>
 
     <script src="script.js"></script>
   </body>
