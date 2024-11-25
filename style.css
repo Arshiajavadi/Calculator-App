@@ -37,7 +37,7 @@ body {
 .box {
   background: #000000;
   text-align: center;
-  margin: 10rem auto;
+  margin: 8rem auto;
   padding: 2rem;
   padding-bottom: 1.1rem;
   width: 25rem;
@@ -58,7 +58,7 @@ body {
 }
 
 #display {
-  width: 25rem;
+  width: 23rem;
   height: 5rem;
   font-size: 6rem;
   border: 0;
