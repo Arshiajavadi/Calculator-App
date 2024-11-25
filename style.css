@@ -8,12 +8,20 @@ body {
     rgba(75, 52, 39, 1) 0%,
     rgba(25, 19, 15, 1) 100%
   );
-  height: 5rem;
+  height: 10rem;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.container {
-  margin: 3rem 0;
+.header {
+  display: flex;
+  gap: 1rem;
+  color: white;
+  margin: 2rem 1rem;
+}
+
+.logo {
+  width: 3rem;
+  height: 3.7rem;
 }
 
 .mobile {
@@ -22,21 +30,21 @@ body {
 }
 
 .mobile-con {
-  margin: 10rem auto;
+  margin: 2rem auto;
   text-align: center;
 }
 
 .box {
   background: #000000;
   text-align: center;
-  margin: auto;
+  margin: 10rem auto;
   padding: 2rem;
   padding-bottom: 1.1rem;
   width: 25rem;
   height: auto;
   border-radius: 4.5rem;
   position: relative;
-  bottom: 71rem;
+  bottom: 71.4rem;
 }
 
 .calculation {
