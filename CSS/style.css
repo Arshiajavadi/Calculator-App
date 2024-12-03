@@ -55,6 +55,8 @@ body {
   margin-bottom: 0.5rem;
   top: 11rem;
   height: 4rem;
+  overflow: auto;
+  scrollbar-width: none;
 }
 
 #display {
